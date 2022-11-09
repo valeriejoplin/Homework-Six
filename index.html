@@ -39,40 +39,6 @@ new Chart("wineChart", {
 <script>
 w3.slideshow(".nature", 1000);
 </script>
-  
-<script>
-var myObject= {"customers":[
-{"CustomerName" : "Alfred Futterkiste","Varietal" : "Cabernet","Country" : "Germany"},
-{"CustomerName" : "Astrid Snabbköp","Varietal" : "Chardonnay","Country" : "Sweden"},
-{"CustomerName" : "Elisa Moctezuma","Varietal" : "Sauvignon Blanc","Country" : "Mexico"},
-{"CustomerName" : "Oliver Handel","Varietal" : "Merlot","Country" : "Austria"},
-{"CustomerName" : "FISSA Fabrica Inter. Salchichas S.A.","Varietal" : "Cabernet","Country" : "Spain"},
-{"CustomerName" : "Santiago Rosso","Varietal" : "Zinfandel","Country" : "Spain"},
-{"CustomerName" : "Island Trading Company","Varietal" : "Riesling","Country" : "UK"},
-{"CustomerName" : "Felix Essen","Varietal" : "Pinot Noir","Country" : "Germany"}
-]};
-</script>
-<body>
-
-<h2>Wines purchased by Customers</h2>
-
-<table id="id01">
-  <tr>
-    <th>Customer</th>
-    <th>Varietal</th>
-    <th>Country</th>
-  </tr>
-  <tr w3-repeat="customers">
-    <td>{{CustomerName}}</td>
-    <td>{{Varietal}}</td>
-    <td>{{Country}}</td>
-  </tr>
-</table>
-
-<script>
-w3.displayObject("id01", myObject);
-</script>
-  
-</body>
+  </body>
 </html>
 
