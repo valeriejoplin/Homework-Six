@@ -39,6 +39,22 @@ new Chart("wineChart", {
 <script>
 w3.slideshow(".nature", 1000);
 </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <script>
+      function setup() {
+        createCanvas(300, 300);
+        background(32);
+      }
+
+      function draw() {
+        fill(random(255), random(255), random(255));
+        circle(random(width), random(height), 25);
+      }
+    </script>
+  <body>
+    <h1>My Sketch</h1>
+  </body>
   </body>
 </html>
 
