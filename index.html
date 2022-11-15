@@ -28,6 +28,19 @@ new Chart("wineChart", {
   }
 });
 </script>
+  <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#p1").css("color", "red").slideUp(2000).slideDown(2000);
+  });
+});
+</script>
+
+<body>
+
+<p id="p1">jQuery is Fun!!</p>
+
+<button>Let's Rock</button>
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <body>
 
@@ -56,19 +69,6 @@ w3.slideshow(".nature", 1000);
     <h1>My sketch using JavaScript libraries!</h1>
   </body>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("#p1").css("color", "red").slideUp(2000).slideDown(2000);
-  });
-});
-</script>
-</head>
-<body>
-
-<p id="p1">jQuery is Fun!!</p>
-
-<button>Let's Rock</button>
   </body>
 </html>
 
